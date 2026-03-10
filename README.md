@@ -51,15 +51,15 @@ Listo para recibir ...
 ```
 org.example
 ├── annotations
-│   ├── GetMapping.java        ← marca un método como endpoint GET
-│   ├── RequestParam.java      ← extrae parámetros de la URL
-│   └── RestController.java    ← marca una clase como controlador REST
+│   ├── GetMapping.java        
+│   ├── RequestParam.java     
+│   └── RestController.java    
 ├── app
-│   ├── HelloController.java   ← endpoints: /  /hello  /pi
-│   └── GreetingController.java← endpoint: /greeting?name=
+│   ├── HelloController.java   ← endpoints
+│   └── GreetingController.java
 ├── framework
-│   ├── MicroSpringBoot3.java  ← núcleo: reflexión, servidor HTTP, ruteo
-│   └── InvokeMain.java        ← invocación dinámica de métodos
+│   ├── MicroSpringBoot3.java  
+│   └── InvokeMain.java        
 ├── http
 │   ├── HttpRequest.java
 │   ├── HttpResponse.java
@@ -95,7 +95,10 @@ java -cp target/classes org.example.framework.MicroSpringBoot3 org.example.app.H
 mvn test
 
 
-### Test evidence  
+### Test evidence    
+
+#### Ejecución en AWS EC2
+<img width="822" height="539" alt="image" src="https://github.com/user-attachments/assets/29c73e42-47a9-40a5-8826-59058ed458d9" />
 
 <img width="788" height="234" alt="image" src="https://github.com/user-attachments/assets/9a6ecdda-b88d-4ad6-9c8d-9212dc0c12dc" />
 
