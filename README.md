@@ -181,8 +181,8 @@ http://<ec2-dns>:8080/index.html
 
 ## Conclusions
 
-Building this framework from scratch provided a deeper understanding of how modern frameworks like Spring Boot work internally. Through the use of Java Reflection, it was possible to dynamically load classes, inspect annotations, and invoke methods at runtime without knowing them at compile time.
+this framework from the ground up has allowed for a greater understanding of the inner workings of current frameworks like Spring Boot. Thanks to the use of Java Reflection, it has been possible to dynamically load classes, inspect annotations, and invoke methods at runtime without needing to know them at compile time.
 
-The project demonstrated that a functional IoC container can be built with core Java, using annotations as metadata to define REST endpoints and wire components automatically. Serving static files alongside dynamic endpoints showed how a real web server handles different types of requests in a unified pipeline.
-
-Deploying on AWS EC2 reinforced the understanding of how web applications are exposed to the internet, including network configuration, port management, and remote execution via SSH.
+The project has shown that a functional IoC container can be built with Java Core, using annotations as metadata for REST endpoint descriptions and automatically connecting components.
+The distribution of static files, along with dynamic endpoints, has demonstrated how a real web server can handle different types of requests in a unified pipeline.
+The implementation on AWS EC2 has strengthened the understanding of how web applications are exposed to the internet, from network configuration and port management to remote execution via SSH.
